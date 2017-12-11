@@ -1,0 +1,101 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 75, 52);    
+}
+
+header
+{
+    text-align: center;
+    width: 100%;
+    font-size: 400%;
+    color: rgb(59, 56, 56);    
+}
+
+h1
+{
+    margin: 0%;
+}
+h2
+{
+    margin: 1%;
+    color: rgb(59, 56, 56);
+}
+
+#records-container
+{
+    width: 50%;
+}
+
+.record
+{
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 0.5% 0%;
+    background-color: #ffffff;
+    margin: 1%;    
+}
+
+.user
+{
+    margin: 1%;
+    font-size: 150%;
+}
+
+.date
+{
+    margin: 1%;
+    font-size: 150%;
+    font-style: italic;
+}
+
+.content
+{
+    margin: 1%;
+    font-size: 180%;
+}
+
+.dotted-line
+{
+    border-top: dotted 1px black;
+}
+
+#form-container
+{
+    width: 50%;
+}
+
+form
+{
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+}
+
+input
+{
+
+    border-radius: 10px;
+    width: 20%;
+    padding: 0.5%;
+}
+
+textarea
+{
+    border-radius: 10px;
+    width: 30%;
+    min-height: 100px;
+    padding: 0.5%;
+
+}
+
+#button:hover
+{
+    background-color: #c96666;
+    cursor: pointer;
+}
